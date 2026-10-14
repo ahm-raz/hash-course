@@ -30,6 +30,8 @@ app.get("/", (req, res) => {
 
 // User routes
 app.use("/users", userRoutes);
+// app.use("/todo", todoRoutes)
+
 
 // Start server after connecting to MongoDB
 const PORT = process.env.PORT || 3000;
